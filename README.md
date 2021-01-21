@@ -1,5 +1,9 @@
 This project is intended to try out more ridged structure around a project.
 
+
+# I would suggest ignoring this project for now.
+
+
 I have found as my projects grow in scale the method I use to develop them starts to crumble.
 I am taking some classes on structuring software projects, so no time like the present to try them out.
 
@@ -32,11 +36,11 @@ So I would estimate that it will take months to do.
 I intend to use C and Guile. But we will see how it goes after the final design is drawn up.
 
 The 1.0 release will allow for games to be written with the engine.
-Speaking now while having not even designed it yet. I would not sugjest trying to write a big game with the 1.0 release.
-I make no promeses of compatability until the 2.0 release. And those promeses will be made then.
-I am writing this far in advance so that on the off chance someone else takes an intrest to this project they will have there expectations set appropretly.
+Speaking now while having not even designed it yet. I would not suggest trying to write a big game with the 1.0 release.
+I make no promises of compatibility until the 2.0 release. And those promises will be made then.
+I am writing this far in advance so that on the off chance someone else takes an interest to this project they will have there expectations set appropriately.
 
-1.0 should signal useable
+1.0 should signal usable
 2.0 should signal stable
 3.0 should signal a fundamental structural change
 
@@ -45,5 +49,5 @@ But if 3.0 comes out then any new projects should try and target it.
 
 
 This may seem like a bunch of nonsense to be talking about.
-But this more just practice for when I start to write up the requierments document.
-With a topic and a justafacation that I'm putting it into the readme file
+But this more just practice for when I start to write up the requirements document.
+With a topic and a justification that I'm putting it into the read me file
