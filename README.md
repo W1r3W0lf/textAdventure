@@ -1,6 +1,5 @@
 This project is intended to try out more ridged structure around a project.
 
-
 # I would suggest ignoring this project for now.
 
 
