@@ -1,4 +1,4 @@
-# Text Adventure Game Engine requierments
+# Text Adventure Game Engine requirements
 
 ## Portability
 The software should be able to run on any POSIX compatible system and compiled to run under a Windows system.

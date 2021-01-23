@@ -18,8 +18,8 @@ To start out with the majority of this project will be taking place in doc/ and 
 
 I am going to be trying out the waterfall method for this project. Witch is roughly
 
-Outline what it will do
-Design
+[Outline what it will do](./doc/SRS.md)
+[Design](./doc/SDD.md)
 Evaluate
 Re-Design
 Write
@@ -34,19 +34,3 @@ So I would estimate that it will take months to do.
 
 I intend to use C and Guile. But we will see how it goes after the final design is drawn up.
 
-The 1.0 release will allow for games to be written with the engine.
-Speaking now while having not even designed it yet. I would not suggest trying to write a big game with the 1.0 release.
-I make no promises of compatibility until the 2.0 release. And those promises will be made then.
-I am writing this far in advance so that on the off chance someone else takes an interest to this project they will have there expectations set appropriately.
-
-1.0 should signal usable
-2.0 should signal stable
-3.0 should signal a fundamental structural change
-
-A game written for 2.0 should not need to be ported to 3.0.
-But if 3.0 comes out then any new projects should try and target it.
-
-
-This may seem like a bunch of nonsense to be talking about.
-But this more just practice for when I start to write up the requirements document.
-With a topic and a justification that I'm putting it into the read me file
