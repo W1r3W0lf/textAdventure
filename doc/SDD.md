@@ -47,3 +47,16 @@ Item sets should be generated at the start of the game by going though every ite
 These sets should reference the original object witch is stored in the global object map.
 
 
+Maybe it should be a global list instead of a global map.
+I was thinking of mapping items to there names. But that would prevent having more than one item with a given name.
+By having a list you could record indexes in the modifeyd object list instead.
+You could also address any object in the game by it's object number.
+
+Rooms are also objects. They have a description and a set that refiers to other objects.
+
+
+
+
+Every Item, NPC, and Room will be represented as an Object in the Global 
+
+
