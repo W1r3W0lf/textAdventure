@@ -45,7 +45,7 @@ I'll work on these ideas until I put them into full ideas above this section.
 
 Rooms and chests.
 
-Rooms and chests are conceptually very smaller.
+Rooms and chests are conceptually very similar.
 They both store things. In terms of how state is dealt with they refer to things.
 The biggest difference between chests and rooms is that rooms have doors.
 I am thinking of making doors an object that can move you from one place to another.
