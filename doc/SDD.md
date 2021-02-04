@@ -103,5 +103,8 @@ This falls into line with Guile Lisp the language I want the games to be written
 In a Lisp lists don't have types, you can put anything you want into a list.
 And rather than building different objects you can just make a map. If the map connects contain to a list of other maps then it has the contain atomic. If not then it doesn't.
 
-It's kinda like duck typing. If it honks like a duck then you can use it to honk. And if that same duck spans over watter you can also walk over it like a bridge.
+I think that I have enough to start prototyping.
+
+The prototypes will not be used in the final version. They are only intended for testing things out.
+
 

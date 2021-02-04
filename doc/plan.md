@@ -24,9 +24,16 @@ I am going to be trying the base of the waterfall method along with some pre-des
 5. Write
 6. Test
 7. Deploy
+8. Flush out documentation
 
 I don't think that waterfall is the optimal method for every project. But I think it's a good fit for this one.
 
+I've added an 8th step. This step is to focus on outreach for the project.
+This step is conditional, after I have created a game with the final release of the software and don't have any major changes I want to make, then it happens. If after making a game in the engine I find that it needs some major changes then I'll get to work on the major changes.
+
+Up until step 8 this product is only for me. A developer could read though everything and use it, but why would they? So after the creation phase is over and the maintenance phase starts I'll document developer facing features and create a tutorial on how to make a game.
+
+I don't think enough projects write there own tutorials. And the ones that do tend to write them like the reader knows what's going on. I want to write a beginner tutorial that will be understandable to a beginner.
 
 This is the largest scope project that I have started to undertake.
 So I would estimate that it will take months to do.
