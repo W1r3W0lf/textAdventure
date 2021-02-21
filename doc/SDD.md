@@ -107,4 +107,14 @@ I think that I have enough to start prototyping.
 
 The prototypes will not be used in the final version. They are only intended for testing things out.
 
+After playing around with lex, I am starting to reconsider to the degree that I want things to be just these atomic things.
+I'm not completely turned around. But I'm trying to bridge the gap between these two. I might not end up changing it.
 
+I am realizing that the structure I want for objects in this is like how Godot does it's object system. I think that's a good sign that I'm on the right track.
+
+
+I am rethinking one of the original ideas of this engine. I wanted to use lex and yacc as how I would process the plain text of the language.
+But it seems that I can get away with rolling my own lexer and parser.
+
+This would be in an effort to make the engine simpler.
+If I can process single line commands without them then it will be easier to build and maintain. 
