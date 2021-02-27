@@ -5,8 +5,8 @@
 (import (r7rs)
         (srfi-1)
         (srfi-13)
-        (srfi-69))
-
+        (srfi-69)
+        (chicken file))
 
 ;;; I need to build a language to solve my problem
 
@@ -25,8 +25,24 @@
 
 ;;; Using a hash table for the global list of all objects in the game
 ;;; It should get quite large so speed should matter more here
+
+
 (define GHT (make-hash-table))
 
+(if (file-exists? "./save_data.txt")
+    (set! GHT (alist->hash-table (read (open-input-file "./save_data.txt")))))
+
+
+;;;(write (hash-table->alist GHT) (open-output-file "./save_data.txt"))
+
+
+(if (hash-table-exists? GHT 'count)
+    (hash-table-set! GHT 'count (+ 1 (hash-table-ref GHT 'count)))
+    (hash-table-set! GHT 'count 0)
+    )
+
+
+(print "count " (hash-table-ref GHT 'count))
 
 (hash-table-set! GHT 'a 1)
 (hash-table-set! GHT 'b 2)
@@ -43,12 +59,15 @@
 (print (hash-table-exists? GHT 'a))
 
 
+(write (hash-table->alist GHT) (open-output-file "./save_data.txt"))
+
 (define-syntax run-and-set!
   ;;; Runs a function over data and saves the results of the data.
   (syntax-rules ()
     ((run-and-set! function value)
      (set! value (function value)))
     ))
+
 
 (define (run-and-hash-set! table key function)
   (hash-table-set! table key (function (hash-table-ref table key))))
