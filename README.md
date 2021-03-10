@@ -2,6 +2,9 @@ This project is intended to try out more ridged structure around a project.
 
 # I would suggest ignoring this project for now.
 
+I am taking a step back from this project to learn how to build the command language.
+I could get it to work with evaluating user input as Scheme code, but I think doing it that way would make life harder, and limit it's use case to only me.
+
 # What I want this to be
 
 I want to create the ultimate text adventure engine.
